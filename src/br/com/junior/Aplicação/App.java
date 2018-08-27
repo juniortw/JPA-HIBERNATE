@@ -1,4 +1,4 @@
-package br.com.junior.Aplicação;
+package br.com.junior.AplicaÃ§Ã£o;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -51,7 +51,7 @@ public class App {
 	}
 
 	private static void Adicionar(Pessoa p1, EntityManager em) {
-		//Adicionando uma pessoa no bando
+		//Adicionando uma pessoa no banco
 		em.getTransaction().begin(); 
 		em.persist(p1);
 		em.getTransaction().commit();
