@@ -33,7 +33,7 @@ public class App {
 	}
 
 	private static void Remover(Pessoa p, Integer id, EntityManager em) {
-		//Removendo uma pessoa do banco
+		//Removendo uma pessoa do banco 
 		em.find(Pessoa.class, id);
 		em.getTransaction().begin();
 		em.remove(p);
